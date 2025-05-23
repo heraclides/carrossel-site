@@ -1,5 +1,4 @@
-<script>
-  let slideAtual = 0;
+let slideAtual = 0;
 
   function mudarSlide(direcao) {
     const slides = document.getElementById("slides");
@@ -7,4 +6,3 @@
     slideAtual = (slideAtual + direcao + totalSlides) % totalSlides;
     slides.style.transform = `translateX(-${slideAtual * 100}%)`;
   }
-</script>
