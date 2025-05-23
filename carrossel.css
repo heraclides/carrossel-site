@@ -1,11 +1,7 @@
 .carrossel {
-  position: relative;
   max-width: 800px;
-  height: 400px;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .slides {
